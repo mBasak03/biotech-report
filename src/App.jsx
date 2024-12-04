@@ -8,21 +8,21 @@ import NoPage from "./pages/NoPage";
 export default function App() {
   return (
     
-      <>
-        <nav className="bg-gradient-to-b from-gray-200 to-gray-100 shadow-md">
+      <div className=" bg-bgBrown">
+        <nav >
           <div className="flex items-center justify-between px-[20%] py-4 max-w-screen-xl mx-auto">
             {/* Logo Section */}
-            {/* <div className="flex items-center space-x-2">
+            <div className="flex items-center space-x-2 ml-[-80%] ">
               <img
-                src="/path/to/logo.png"
+                src="https://s3-alpha-sig.figma.com/img/740e/5cb5/cc336ab0e9a675f40debd7e8e6796674?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=m75huvxa88nZ3JS-73A0Dc9VW00h9HONYE04lvHK1YtOkWsvfYRqdVF5etK~RmfgXpTERYr18TMDyuf9jQteehNpqmu-wop~tzQobCEVCWivG-kW9EIWDdvo1xQCLiKK57eT0enPkKrkEWIelkXY1V4Ex194wCSV5dGDR5dFyJeE6L~hXG8iCnWGQIHipz~wVuelqkomVXebgaiWFBGRAmmaphW7Cl-gRHToa5qacuFtPmt2ak-p-9YAuH9XZQh5SBo729VN1s8hM0bNZvfBJC6E9VhWTCwwT1K76devmbqpNNKwXZE6wBThq-B2CiN-QhUOGIpdw88y8OT5oHED6w__"
                 alt="Logo"
-                className="w-12 h-12"
+                className="w-[124px] h-[124px]"
               />
-              <span className="font-semibold text-lg">Institute Name</span>
-            </div> */}
+              
+            </div>
 
             {/* Navigation Links */}
-            <div className="flex space-x-[100px] text-gray-800 text-lg">
+            <div className="flex space-x-[100px] text-gray-800 text-xl">
               <a href="/" className="hover:text-gray-600">Home</a>
               <a href="/courses" className="hover:text-gray-600">Courses</a>
               <a href="/faculty" className="hover:text-gray-600">Faculty</a>
@@ -38,7 +38,7 @@ export default function App() {
           <Route path="contact" element={<Contacts />} />
           <Route path="*" element={<NoPage />} />
         </Routes>
-      </>
+      </div>
 
   );
 }
