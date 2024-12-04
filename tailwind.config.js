@@ -50,7 +50,7 @@ module.exports = {
   				'4': 'hsl(var(--chart-4))',
   				'5': 'hsl(var(--chart-5))'
   			},
-			navYellow: '#FFCC00', navGreen: '#005427', bgBrown: '#FFF8DF', separator: '#CBCBCB',
+			navYellow: '#FFCC00', navGreen: '#005427', bgBrown: '#FFF8DF', separator: '#CBCBCB', bg1: "#1C9554", bg2: "#FFCC00", bg3: "#005BD1", bg4: "#1C9554",
 			
   		}
   	}

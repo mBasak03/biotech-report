@@ -24,7 +24,7 @@ export default function App() {
             {/* Navigation Links */}
             <div className="flex space-x-[100px] text-gray-800 text-xl">
               <a href="/" className="hover:text-gray-600">Home</a>
-              <a href="/courses" className="hover:text-gray-600">Courses</a>
+              <a href="https://nitdgp.ac.in/department/biotechnology/ug-1" className="hover:text-gray-600">Courses</a>
               <a href="/faculty" className="hover:text-gray-600">Faculty</a>
               <a href="/contact" className="hover:text-gray-600">Contact</a>
             </div>
